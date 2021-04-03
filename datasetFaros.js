@@ -6,6 +6,10 @@ export function dataset(carrusel){
 const $carousel = document.querySelector(".carousel-inner"),
 
     $fragment = document.createDocumentFragment();
+	let  $myCarousel = d.querySelector(carrusel),
+    $slider = new bootstrap.Carousel($myCarousel, {
+  interval: 1000,
+});
 
     
 let img =[
