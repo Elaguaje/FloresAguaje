@@ -9,7 +9,6 @@ const $carousel = document.querySelector(".carousel-inner"),
  let  $myCarousel = d.querySelector(carrusel),
     $slider = new bootstrap.Carousel($myCarousel, {
   interval: 1000,
-  wrap: false
 });
     
 let img =[
